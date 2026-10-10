@@ -1,0 +1,217 @@
+{
+  "dataset": {
+    "source": "Kaggle \u2014 Water Potability (adityakadiwal)",
+    "url": "https://www.kaggle.com/datasets/adityakadiwal/water-potability",
+    "raw_file": "dataset\\raw\\water_potability.csv",
+    "rows": 3276,
+    "columns": 10,
+    "column_names": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity",
+      "Potability"
+    ]
+  },
+  "target": {
+    "column": "Potability",
+    "class_counts": {
+      "0": 1998,
+      "1": 1278
+    },
+    "class_percentages": {
+      "0": 60.99,
+      "1": 39.01
+    },
+    "imbalance_ratio": 1.56338
+  },
+  "features": {
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ],
+    "missing_values": {
+      "ph": {
+        "count": 491,
+        "pct": 14.99
+      },
+      "Hardness": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Solids": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Chloramines": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Sulfate": {
+        "count": 781,
+        "pct": 23.84
+      },
+      "Conductivity": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Organic_carbon": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "Trihalomethanes": {
+        "count": 162,
+        "pct": 4.95
+      },
+      "Turbidity": {
+        "count": 0,
+        "pct": 0.0
+      }
+    }
+  },
+  "duplicates": {
+    "count": 0
+  },
+  "summary_statistics": {
+    "ph": {
+      "count": 2785.0,
+      "mean": 7.080795,
+      "std": 1.59432,
+      "min": 0.0,
+      "25pct": 6.093092,
+      "50pct": 7.036752,
+      "75pct": 8.062066,
+      "max": 14.0,
+      "skew": 0.02563,
+      "kurtosis": 0.720316
+    },
+    "Hardness": {
+      "count": 3276.0,
+      "mean": 196.369496,
+      "std": 32.879761,
+      "min": 47.432,
+      "25pct": 176.850538,
+      "50pct": 196.967627,
+      "75pct": 216.667456,
+      "max": 323.124,
+      "skew": -0.039342,
+      "kurtosis": 0.615772
+    },
+    "Solids": {
+      "count": 3276.0,
+      "mean": 22014.092526,
+      "std": 8768.570828,
+      "min": 320.942611,
+      "25pct": 15666.690297,
+      "50pct": 20927.833607,
+      "75pct": 27332.762127,
+      "max": 61227.196008,
+      "skew": 0.621634,
+      "kurtosis": 0.442826
+    },
+    "Chloramines": {
+      "count": 3276.0,
+      "mean": 7.122277,
+      "std": 1.583085,
+      "min": 0.352,
+      "25pct": 6.127421,
+      "50pct": 7.130299,
+      "75pct": 8.114887,
+      "max": 13.127,
+      "skew": -0.012098,
+      "kurtosis": 0.589901
+    },
+    "Sulfate": {
+      "count": 2495.0,
+      "mean": 333.775777,
+      "std": 41.41684,
+      "min": 129.0,
+      "25pct": 307.699498,
+      "50pct": 333.073546,
+      "75pct": 359.95017,
+      "max": 481.030642,
+      "skew": -0.035947,
+      "kurtosis": 0.648263
+    },
+    "Conductivity": {
+      "count": 3276.0,
+      "mean": 426.205111,
+      "std": 80.824064,
+      "min": 181.483754,
+      "25pct": 365.734414,
+      "50pct": 421.884968,
+      "75pct": 481.792304,
+      "max": 753.34262,
+      "skew": 0.26449,
+      "kurtosis": -0.277093
+    },
+    "Organic_carbon": {
+      "count": 3276.0,
+      "mean": 14.28497,
+      "std": 3.308162,
+      "min": 2.2,
+      "25pct": 12.065801,
+      "50pct": 14.218338,
+      "75pct": 16.557652,
+      "max": 28.3,
+      "skew": 0.025533,
+      "kurtosis": 0.044409
+    },
+    "Trihalomethanes": {
+      "count": 3114.0,
+      "mean": 66.396293,
+      "std": 16.175008,
+      "min": 0.738,
+      "25pct": 55.844536,
+      "50pct": 66.622485,
+      "75pct": 77.337473,
+      "max": 124.0,
+      "skew": -0.083031,
+      "kurtosis": 0.238597
+    },
+    "Turbidity": {
+      "count": 3276.0,
+      "mean": 3.966786,
+      "std": 0.780382,
+      "min": 1.45,
+      "25pct": 3.439711,
+      "50pct": 3.955028,
+      "75pct": 4.50032,
+      "max": 6.739,
+      "skew": -0.007817,
+      "kurtosis": -0.062801
+    }
+  },
+  "correlations_with_target": {
+    "ph": -0.003556,
+    "Hardness": -0.013837,
+    "Solids": 0.033743,
+    "Chloramines": 0.023779,
+    "Sulfate": -0.023577,
+    "Conductivity": -0.008128,
+    "Organic_carbon": -0.030001,
+    "Trihalomethanes": 0.00713,
+    "Turbidity": 0.001581
+  },
+  "figures_saved": [
+    "ml\\reports\\figures\\box_plots.png",
+    "ml\\reports\\figures\\class_distribution.png",
+    "ml\\reports\\figures\\correlation_matrix.png",
+    "ml\\reports\\figures\\feature_distributions.png",
+    "ml\\reports\\figures\\missing_values.png",
+    "ml\\reports\\figures\\pairplot_top4.png"
+  ],
+  "disclaimer": "AquaPura is a preliminary screening tool only. These results do not constitute certified water-quality testing and must not be used as the sole basis for drinking-water safety decisions."
+}

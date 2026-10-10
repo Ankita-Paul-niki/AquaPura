@@ -1,0 +1,29 @@
+# ML / Data Science dependencies for AquaPura Phase 1 & 2
+# Install in a dedicated virtual environment:
+#
+#   python -m venv venv
+#   .\venv\Scripts\Activate.ps1        # Windows PowerShell
+#   pip install -r ml/requirements_ml.txt
+
+# ── Core data stack ────────────────────────────────────────────────────────
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+
+# ── Visualisation ──────────────────────────────────────────────────────────
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# ── Machine Learning ──────────────────────────────────────────────────────
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# ── Class-imbalance handling (Phase 2) ────────────────────────────────────
+imbalanced-learn==0.14.2
+
+# ── Explainability (Phase 6) ──────────────────────────────────────────────
+# shap==0.45.0          # uncomment when Phase 6 begins
+
+# ── Jupyter (optional — for interactive notebooks) ────────────────────────
+# jupyterlab==4.2.0     # uncomment if you prefer .ipynb over .py scripts
+# ipykernel==6.29.4

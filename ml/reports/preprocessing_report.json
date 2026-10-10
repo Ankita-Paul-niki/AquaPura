@@ -1,0 +1,83 @@
+{
+  "original_shape": {
+    "rows": 3276,
+    "cols": 10
+  },
+  "duplicates_removed": 0,
+  "missing_values": {
+    "ph": {
+      "count": 491,
+      "pct": 14.99
+    },
+    "Hardness": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Solids": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Chloramines": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Sulfate": {
+      "count": 781,
+      "pct": 23.84
+    },
+    "Conductivity": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Organic_carbon": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Trihalomethanes": {
+      "count": 162,
+      "pct": 4.95
+    },
+    "Turbidity": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "Potability": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "imputation": "none \u2014 handled inside scikit-learn Pipeline in train.py",
+  "outlier_capping": "none \u2014 EDA showed no justification",
+  "split": {
+    "strategy": "stratified",
+    "test_size": 0.2,
+    "random_seed": 42,
+    "train_rows": 2620,
+    "test_rows": 656,
+    "train_class_distribution": {
+      "0": {
+        "count": 1598,
+        "pct": 60.99
+      },
+      "1": {
+        "count": 1022,
+        "pct": 39.01
+      }
+    },
+    "test_class_distribution": {
+      "0": {
+        "count": 400,
+        "pct": 60.98
+      },
+      "1": {
+        "count": 256,
+        "pct": 39.02
+      }
+    }
+  },
+  "output_files": {
+    "train": "dataset\\processed\\train.csv",
+    "test": "dataset\\processed\\test.csv"
+  },
+  "disclaimer": "AquaPura is a preliminary screening tool only. Do not use these results as the sole basis for drinking-water safety decisions."
+}
