@@ -18,7 +18,10 @@ class Settings(BaseSettings):
     backend_port: int = 8000
 
     # CORS -- accepts a comma-separated string like "http://localhost:5173"
-    cors_origins: list[str] = ["http://localhost:5173"]
+    cors_origins: list[str] = [
+    "http://localhost:5173",
+    "https://aquapura-frontend.onrender.com",
+]
 
     # Database
     database_url: str = "sqlite:///./aquapura.db"
